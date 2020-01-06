@@ -15,5 +15,5 @@ class Genre
     artist_array = songs.collect {|song| song.artist}
     artist_array.uniq
   end
-  
+
 end
